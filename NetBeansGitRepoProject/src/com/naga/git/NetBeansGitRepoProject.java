@@ -16,6 +16,9 @@ public class NetBeansGitRepoProject {
      */
     public static void main(String[] args) {
       System.out.println("hello world welcome:");
+        if(args[0].equals("naga")){
+            System.out.println("hello welcome to:"+name);
+        }
     }
     
 }
