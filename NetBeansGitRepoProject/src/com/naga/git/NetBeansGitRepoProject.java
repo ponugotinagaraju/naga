@@ -5,6 +5,8 @@
  */
 package com.naga.git;
 
+import java.util.Scanner;
+
 /**
  *
  * @author NSN
@@ -16,7 +18,10 @@ public class NetBeansGitRepoProject {
      */
     public static void main(String[] args) {
       System.out.println("hello world welcome:");
-        if(args[0].equals("naga")){
+        Scanner sc=new Scanner(System.in);
+        System.out.println("enter string");
+       String name= sc.next();
+        if(name.equals("naga")){
             System.out.println("hello welcome to:"+name);
         }
     }
